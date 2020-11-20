@@ -26,9 +26,12 @@ if(isset($_GET["userId"])){
     <div class="card-body" >
     <table class="table table-bordered text-center">
         <thead>
-            <th>#</th>
-            <th>Name</th>
-            <th>Actions</th>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Actions</th>
+            </tr>
+            
         </thead>
         <tbody  id="userData">
 

@@ -29,9 +29,11 @@ $user = mysqli_fetch_assoc($users);
         <div class="card-header"><h5>Send Message To-</h5></div>
     <table class="table table-bordered text-center">
         <thead>
-            <th>#</th>
-            <th>Name</th>
-            <th>Actions</th>
+            <tr>                
+                <th>#</th>
+                <th>Name</th>
+                <th>Actions</th>
+            </tr>
         </thead>
         <tbody>
         <?php 
